@@ -2,6 +2,7 @@
   "name": "trip",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://srj2003.github.io/trip/",
   "dependencies": {
     "@react-pdf-viewer/core": "^3.12.0",
     "@react-pdf-viewer/default-layout": "^3.12.0",
@@ -18,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://srj2003.github.io/trip",
+    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
 
