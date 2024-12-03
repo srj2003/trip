@@ -214,7 +214,7 @@ const PlanningDetails = () => {
                   >
                     {/* Open link in a new tab when clicking the link */}
                     <a
-                      onClick={() => setCurrentPDF(link)}
+                      onClick={() => (window.location.href = link)}
                       className="text-blue-600 hover:underline truncate flex-grow"
                     >
                       Ticket Link {index + 1}
